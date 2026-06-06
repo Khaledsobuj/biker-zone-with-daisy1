@@ -69,44 +69,9 @@
             </div>
         </nav>
 
-        <!-- or nav section for  practice -->
-        <!-- <nav>
-            <div class="navbar bg-base-100 shadow-sm">
-                <div class="flex-1">
-                    <div class="dropdown">
-                        <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
-                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
-                                stroke="currentColor">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                    d="M4 6h16M4 12h8m-8 6h16" />
-                            </svg>
-                        </div>
-                        <ul tabindex="-1"
-                            class="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow">
-                            <li><a>Home</a></li>
-                            <li><a>Shop</a></li>
-                            <li><a>News</a></li>
-                            <li><a>Contact</a></li>
-                        </ul>
-                    </div>
-                    <a class="btn btn-ghost text-xl">Bike Dekho</a>
-                </div>
-                <div class="navbar-center hidden lg:flex">
-                    <ul class="menu menu-horizontal px-1">
-                        <li><a>Home</a></li>
-                        <li><a>Shop</a></li>
-                        <li><a>News</a></li>
-                        <li><a>Contact</a></li>
-                    </ul>
-                </div>
-                <div class="">
-                    <a class="btn bg-bickebtn text-white">Login</a>
-                </div>
-            </div>
-        </nav> -->
 
 
-        <!-- This is slider or Carousel section -->
+        <!-- /* This is slider or Carousel section */ -->
 
         <div class="carousel w-full bg-[#ebc4bb] lg:h-[550px]">
             <!-- slider1 -->
@@ -230,29 +195,23 @@
                 </div>
             </div>
         </div>
-
-
-
-
-
-
     </header>
     <main class="md:container md:mx-auto">
-        <!-- this is Fetured Bikes In This Year section -->
+        <!-- /* this is Fetured Bikes In This Year section */ -->
 
         <section class="mt-8 lg:mt-32">
             <h1 class="text-4xl lg:text-5xl font-semibold text-center">Fetured Bikes In This Year</h1>
-            <div class="flex flex-col lg:flex-row justify-evenly gap-7 p-5 mt-12">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 p-5 mt-12">
                 <img class="grayscale" src="images/others/feature-bike.png" alt="">
                 <img src="images/others/feature-bike.png" alt="">
                 <img class="grayscale" src="images/others/feature-bike.png" alt="">
             </div>
         </section>
         <!-- This is latest News section -->
-        <section class="mt-32">
-            <h2 class="text-center text-3xl font-semibold ">latest News</h2>
+        <section class="mt-5 lg:mt-32">
+            <h2 class="text-center text-3xl font-semibold my-10">latest News</h2>
 
-            <div class="flex flex-col lg:flex-row mt-12 justify-around">
+            <div class="gap-4 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
                 <!-- card--1 -->
                 <div class="card bg-base-100 w-auto lg:w-96 shadow-sm">
                     <figure>
@@ -304,20 +263,166 @@
                         </div>
                     </div>
                 </div>
-
             </div>
-
         </section>
-        <!-- This is Happy Clients says section -->
-         <section class="mt-32">
+        <!-- /* This is Happy Clients says section */ -->
+        <section class=" mt-5 lg:mt-32">
             <h2 class="text-4xl lg:mb-12 lg:text-5xl font-semibold text-center">
                 Happy <span class="text-bickebtn">Clients says</span>
             </h2>
-         </section>
+            <div class=" gap-4 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+                <!-- first clients -->
+                <div class="card bg-base-100 shadow-sm">
+                    <figure class="px-10 pt-10">
+                        <img class="w-36" src="images/others/user-1.png" alt="Shoes" class="rounded-xl" />
+                    </figure>
+                    <div class="card-body items-center text-center space-y-2">
 
+                        <p>Slate helps you see how
+                            many more days you need
+                            to work to reach your financial
+                            goal for the month and year.
+                        </p>
+                        <div class="rating">
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400"
+                                aria-label="1 star" />
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400"
+                                aria-label="2 star" />
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400"
+                                aria-label="3 star" />
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400"
+                                aria-label="4 star" checked="checked" />
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400"
+                                aria-label="5 star" />
+                        </div>
+                        <h6 class="font-semibold text-info">Regina Miles</h6>
+                        <p class="font-semibold text-xs">banker</p>
+                    </div>
+                </div>
+                <!-- second clients -->
+                <div class="card bg-base-100 shadow-sm">
+                    <figure class="px-10 pt-10">
+                        <img class="w-36" src="images/others/user-2.png" alt="Shoes" class="rounded-xl" />
+                    </figure>
+                    <div class="card-body items-center text-center space-y-2">
+
+                        <p>Slate helps you see how
+                            many more days you need
+                            to work to reach your financial
+                            goal for the month and year.
+                        </p>
+                        <div class="rating">
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400"
+                                aria-label="1 star" />
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400"
+                                aria-label="2 star" />
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400"
+                                aria-label="3 star" />
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400"
+                                aria-label="4 star" checked="checked" />
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400"
+                                aria-label="5 star" />
+                        </div>
+                        <h6 class="font-semibold text-info">Regina Miles</h6>
+                        <p class="font-semibold text-xs">banker</p>
+                    </div>
+                </div>
+                <!-- third clients -->
+                <div class="card bg-base-100 shadow-sm">
+                    <figure class="px-10 pt-10">
+                        <img class="w-36" src="images/others/user-3.png" alt="Shoes" class="rounded-xl" />
+                    </figure>
+                    <div class="card-body items-center text-center space-y-2">
+
+                        <p>Slate helps you see how
+                            many more days you need
+                            to work to reach your financial
+                            goal for the month and year.
+                        </p>
+                        <div class="rating">
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400"
+                                aria-label="1 star" />
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400"
+                                aria-label="2 star" />
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400"
+                                aria-label="3 star" />
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400"
+                                aria-label="4 star" checked="checked" />
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400"
+                                aria-label="5 star" />
+                        </div>
+                        <h6 class="font-semibold text-info">Regina Miles</h6>
+                        <p class="font-semibold text-xs">banker</p>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+        <!-- this is Frequently Asked Questions section -->
+        <section class="mt-5 lg:m-32">
+            <h2 class="text-4xl lg:mb-12 lg:text-5xl font-semibold text-center">
+                Frequently Asked <span class="text-bickebtn">Questions</span>
+            </h2>
+            <div class="hero bg-base-200 min-h-screen">
+                <div class="hero-content flex-col lg:flex-row">
+                    <img src="images/others/faq.png" class="max-w-sm rounded-lg shadow-2xl" />
+                    <div>
+                        <div class="collapse collapse-arrow bg-base-100 border border-base-300">
+                            <input type="radio" name="my-accordion-2" checked="checked" />
+                            <div class="collapse-title font-semibold">What are the most important things I should
+                                know about riding a bike?</div>
+                            <div class="collapse-content text-sm">Safety First! Always obey the rules of the road. Obey
+                                all traffic signals, signs, and laws. Get in the mindset of “driving” your bike—not just
+                                “riding” your bike. This will help you be a more focused and legally compliant bike
+                                rider. </div>
+                        </div>
+                        <div class="collapse collapse-arrow bg-base-100 border border-base-300">
+                            <input type="radio" name="my-accordion-2" />
+                            <div class="collapse-title font-semibold">I forgot my password. What should I do?</div>
+                            <div class="collapse-content text-sm">Click on "Forgot Password" on the login page and
+                                follow the instructions sent to your email.</div>
+                        </div>
+                        <div class="collapse collapse-arrow bg-base-100 border border-base-300">
+                            <input type="radio" name="my-accordion-2" />
+                            <div class="collapse-title font-semibold">How do I update my profile information?</div>
+                            <div class="collapse-content text-sm">Go to "My Account" settings and select "Edit Profile"
+                                to make changes.</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+        </section>
     </main>
-    <footer>
+    <!-- this footer section -->
+    <footer
+        class="footer sm:footer-horizontal bg-neutral text-neutral-content p-10 justify-between flex flex-col-reverse lg:flex-row ">
+        <!-- flex flex-1 lg:flex-row justify-between items-center -->
+        <div class="">
+            <ul class="menu menu-horizontal px-1">
+                <li><a>Download Now</a></li>
+                <li><a>License</a></li>
 
+            </ul>
+            <ul class="menu menu-horizontal px-1">
+                <li><a>About</a></li>
+                <li><a>Features</a></li>
+                <li><a>Pricing</a></li>
+                <li><a>Careers</a></li>
+                <li><a>Help</a></li>
+                <li><a>Privacy Policy</a></li>
+            </ul>
+            <p class="font-light text-sm">© 2020 bike. All rights reserved</p>
+        </div>
+        <nav class="">
+            <h6 class="footer-title">Get the App</h6>
+            <div class="grid grid-cols-1 gap-4 w-40">
+                <img src="images/others/android.png" alt="">
+                <img src="images/others/ios.png" alt="">
+            </div>
+        </nav>
     </footer>
 
 </body>
